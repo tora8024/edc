@@ -11,6 +11,7 @@ import io.vertx.ext.web.handler.StaticHandler;
 import io.vertx.ext.web.handler.sockjs.BridgeOptions;
 import io.vertx.ext.web.handler.sockjs.PermittedOptions;
 import io.vertx.ext.web.handler.sockjs.SockJSHandler;
+import java.text.SimpleDateFormat;
 
 import java.text.DateFormat;
 import java.time.Instant;
@@ -41,12 +42,13 @@ public class WriteFile extends AbstractVerticle {
     // Register to listen for messages coming IN to the server
     eb.consumer(handleAddress).handler(message -> {
       // Create a timestamp string
-      String timestamp = DateFormat.getDateTimeInstance(DateFormat.SHORT, DateFormat.MEDIUM).format(Date.from(Instant.now()));
+      SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmssSSS");
+      
       // Send the message back out to all clients with the timestamp prepended.
       System.out.println("[Receiver] receive a meaasage:"+message.body().toString());
       logger.info("[Receiver] receive a meaasage:"+message.body().toString());
       
-      vertx.fileSystem().writeFile(".\\"+handleAddress+"_"+timestamp+".txt", Buffer.buffer(message.body().toString()), result -> {
+      vertx.fileSystem().writeFile("d:\\"+handleAddress+"_"+ sdf.format(new Date())+".txt", Buffer.buffer(message.body().toString()), result -> {
     	    if (result.succeeded()) {
     	        System.out.println("File written");
     	        logger.info("file written");

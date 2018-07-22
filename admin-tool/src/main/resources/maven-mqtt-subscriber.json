@@ -1,0 +1,3 @@
+{
+  "main": "maven:com.tsmc.edc:mqtt-listener:1.0.0-SNAPSHOT::service-mqtt-subscriber"
+}

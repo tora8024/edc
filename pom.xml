@@ -6,14 +6,22 @@
 
   <groupId>com.tsmc.edc</groupId>
   <artifactId>vertx-edc</artifactId>
-  <packaging>pom</packaging>
   <version>1.0.0-SNAPSHOT</version>
+  
+  
+  <packaging>pom</packaging>
+  
   <modules>
-    <module>web-examples</module>
-    <module>mqtt-examples</module>
+    <module>admin-tool</module>
+    <module>mqtt-listener</module>
   </modules>
 
+  <properties>
+    <vertx.version>3.5.3</vertx.version>
+  </properties>
+  
   <profiles>
+  
 
     <profile>
       <id>java9</id>

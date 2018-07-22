@@ -1,0 +1,12 @@
+{
+  "main": "com.tsmc.edc.mqtt.Subscriber",
+
+  "options": {
+    "config" : {
+      "foo": "bar"
+    },
+    "worker": true,
+    "isolationGroup": "Group_Admin",
+    "extraClasspath": ["blah", "wibble"]
+  }
+}
