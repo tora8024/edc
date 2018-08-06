@@ -157,17 +157,11 @@
       <version>${slf4j.version}</version>
     </dependency>
 
-    <dependency>
-	    <groupId>com.tsmc.edc</groupId>
-	    <artifactId>mqtt-listener</artifactId>
-        <version>${project.version}</version>
-    </dependency>
     
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-maven-service-factory</artifactId>
       <version>3.5.3</version>
-      <classifier>shaded</classifier>
     </dependency>
     
     

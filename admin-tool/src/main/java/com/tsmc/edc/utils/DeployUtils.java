@@ -1,5 +1,9 @@
 package com.tsmc.edc.utils;
 
+import java.util.List;
+
+import org.eclipse.aether.artifact.Artifact;
+
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Context;
 import io.vertx.core.DeploymentOptions;
@@ -11,6 +15,7 @@ import io.vertx.core.json.JsonObject;
 import io.vertx.core.logging.Logger;
 import io.vertx.core.logging.LoggerFactory;
 import io.vertx.core.spi.VerticleFactory;
+import io.vertx.maven.resolver.ResolutionOptions;
 
 public class DeployUtils extends AbstractVerticle {
 
@@ -22,7 +27,6 @@ public class DeployUtils extends AbstractVerticle {
 		logger.info(String
 				.format("[doDeploy]serviceFactory:%s", serviceFactory));
 
-		
 
 		Context context = vertx.getOrCreateContext();
 		if (context.isEventLoopContext()) {

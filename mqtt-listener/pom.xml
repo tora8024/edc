@@ -36,9 +36,11 @@
               <arg>-Acodetrans.output=${project.basedir}/src/main</arg>
             </compilerArgs>
           </configuration>
+          
         </plugin>
       </plugins>
     </pluginManagement>
+    
   </build>
 
   <profiles>

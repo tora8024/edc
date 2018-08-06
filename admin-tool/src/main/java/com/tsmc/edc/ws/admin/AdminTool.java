@@ -26,6 +26,7 @@ public class AdminTool extends AbstractVerticle {
 	final int SERVICE_PORT=8086;
 	// Convenience method so you can run it in your IDE
 	public static void main(String[] args) {
+		
 		Runner.runExample(AdminTool.class);
 	}
 
