@@ -1,0 +1,427 @@
+﻿[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building osgi-examples 3.5.3
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ osgi-examples ---
+[INFO] Deleting D:\Workspace\Vertx\vertx-examples-master\osgi-examples\target
+[INFO] 
+[INFO] --- depends-maven-plugin:1.3.1:generate-depends-file (generate-depends-file) @ osgi-examples ---
+[INFO] Created: D:\Workspace\Vertx\vertx-examples-master\osgi-examples\target\test-classes\META-INF\maven\dependencies.properties
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ osgi-examples ---
+[WARNING] Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ osgi-examples ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding MS950, i.e. build is platform dependent!
+[INFO] Compiling 10 source files to D:\Workspace\Vertx\vertx-examples-master\osgi-examples\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ osgi-examples ---
+[WARNING] Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Workspace\Vertx\vertx-examples-master\osgi-examples\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ osgi-examples ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding MS950, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to D:\Workspace\Vertx\vertx-examples-master\osgi-examples\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ osgi-examples ---
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.0.1:bundle (default-bundle) @ osgi-examples ---
+[INFO] 
+[INFO] --- maven-failsafe-plugin:2.19.1:integration-test (default) @ osgi-examples ---
+[INFO] Failsafe report directory: D:\Workspace\Vertx\vertx-examples-master\osgi-examples\target\failsafe-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running io.vertx.example.osgi.it.VertxServiceIT
+[main] INFO org.ops4j.pax.exam.spi.DefaultExamSystem - Pax Exam System (Version: 4.9.1) created.
+[main] INFO org.ops4j.pax.exam.junit.impl.ProbeRunner - creating PaxExam runner for class io.vertx.example.osgi.it.VertxServiceIT
+[main] INFO org.ops4j.pax.exam.junit.impl.ProbeRunner - running test class io.vertx.example.osgi.it.VertxServiceIT
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Creating bundle watcher with scanner [org.ops4j.pax.swissbox.extender.BundleManifestScanner@11595dc3]...
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.apache.felix.framework]
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.exam]
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.exam.inject]
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.exam.extender.service]
+[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [osgi.cmpn]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Enabling SLF4J API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Enabling Jakarta Commons Logging API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Enabling Log4J API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Enabling Avalon Logger API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Enabling JULI Logger API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.logging.pax-logging-api]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.base]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.swissbox.core]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.swissbox.extender]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.swissbox.framework]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.swissbox.lifecycle]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.swissbox.tracker]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.apache.geronimo.specs.geronimo-atinject_1.0_spec]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.tipi.junit]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.vertx.core]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.common]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.buffer]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.transport]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.handler]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.codec]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.handler-proxy]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.codec-socks]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.codec-http]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.codec-http2]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.codec-dns]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.resolver]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.netty.resolver-dns]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [com.fasterxml.jackson.core.jackson-core]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [com.fasterxml.jackson.core.jackson-databind]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [com.fasterxml.jackson.core.jackson-annotations]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.reactivex.rxjava2.rxjava]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.reactivestreams.reactive-streams]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [vertx-jwt]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [vertx-web]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [vertx-bridge-common]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [vertx-web-client]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [vertx-web-common]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [vertx-rx-java2]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [vertx-auth-common]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [vertx-jdbc-client]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [vertx-sql-common]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [com.zaxxer.HikariCP]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.hsqldb.hsqldb]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.apache.felix.ipojo]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.apache.commons.io]
+八月 15, 2018 10:41:58 下午 io.vertx.example.osgi.VertxActivator start
+資訊: Creating Vert.x instance
+io.netty.common[io.netty.util.internal.logging.InternalLoggerFactory] : Using SLF4J as the default logging framework
+io.netty.common[io.netty.util.ResourceLeakDetector] : -Dio.netty.leakDetection.level: simple
+io.netty.common[io.netty.util.ResourceLeakDetector] : -Dio.netty.leakDetection.targetRecords: 4
+io.netty.common[io.netty.channel.MultithreadEventLoopGroup] : -Dio.netty.eventLoopThreads: 8
+io.netty.common[io.netty.util.internal.PlatformDependent] : Platform: Windows
+io.netty.common[io.netty.util.internal.PlatformDependent0] : -Dio.netty.noUnsafe: false
+io.netty.common[io.netty.util.internal.PlatformDependent0] : Java version: 8
+io.netty.common[io.netty.util.internal.PlatformDependent0] : sun.misc.Unsafe.theUnsafe: available
+io.netty.common[io.netty.util.internal.PlatformDependent0] : sun.misc.Unsafe.copyMemory: available
+io.netty.common[io.netty.util.internal.PlatformDependent0] : java.nio.Buffer.address: available
+io.netty.common[io.netty.util.internal.PlatformDependent0] : direct buffer constructor: available
+io.netty.common[io.netty.util.internal.PlatformDependent0] : java.nio.Bits.unaligned: available, true
+io.netty.common[io.netty.util.internal.PlatformDependent0] : jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+io.netty.common[io.netty.util.internal.PlatformDependent0] : java.nio.DirectByteBuffer.<init>(long, int): available
+io.netty.common[io.netty.util.internal.PlatformDependent] : sun.misc.Unsafe: available
+io.netty.common[io.netty.util.internal.PlatformDependent] : -Dio.netty.tmpdir: C:\Users\偉傑\AppData\Local\Temp (java.io.tmpdir)
+io.netty.common[io.netty.util.internal.PlatformDependent] : -Dio.netty.bitMode: 64 (sun.arch.data.model)
+io.netty.common[io.netty.util.internal.PlatformDependent] : -Dio.netty.noPreferDirect: false
+io.netty.common[io.netty.util.internal.PlatformDependent] : -Dio.netty.maxDirectMemory: 937951232 bytes
+io.netty.common[io.netty.util.internal.PlatformDependent] : -Dio.netty.uninitializedArrayAllocationThreshold: -1
+io.netty.common[io.netty.util.internal.CleanerJava6] : java.nio.ByteBuffer.cleaner(): available
+io.netty.common[io.netty.channel.nio.NioEventLoop] : -Dio.netty.noKeySetOptimization: false
+io.netty.common[io.netty.channel.nio.NioEventLoop] : -Dio.netty.selectorAutoRebuildThreshold: 512
+io.netty.common[io.netty.util.internal.PlatformDependent] : org.jctools-core.MpscChunkedArrayQueue: available
+io.netty.common[io.netty.resolver.dns.DefaultDnsServerAddressStreamProvider] : Default DNS servers: [/192.168.0.1:53, /0.0.0.0:53, /192.168.31.1:53] (sun.net.dns.ResolverConfiguration)
+八月 15, 2018 10:41:58 下午 io.vertx.example.osgi.VertxActivator start
+資訊: Vert.x service registered
+八月 15, 2018 10:41:58 下午 io.vertx.example.osgi.VertxActivator start
+資訊: Vert.x Event Bus service registered
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [io.vertx.osgi-examples]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.tipi.hamcrest.core]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [org.ops4j.pax.exam.invoker.junit]
+八月 15, 2018 10:41:58 下午 io.vertx.example.osgi.VertxHttpServer __M_start
+資訊: Creating vertx HTTP server
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Scanning bundle [PAXEXAM-PROBE-957106df-1588-47a9-9643-9557a4485ae0]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Found resources [ManifestEntry{ key=PaxExam-Executable, value=PaxExam-a82e817d-731e-452e-8156-d578ffd2cfee, }, ManifestEntry{ key=PaxExam-a82e817d-731e-452e-8156-d578ffd2cfee, value=io.vertx.example.osgi.it.VertxServiceIT;testThatTheServiceIsAvailable }]
+org.ops4j.pax.exam.extender.service[org.ops4j.pax.exam.raw.extender.intern.Probe] : Test PaxExam-Executable to be in PaxExam-a82e817d-731e-452e-8156-d578ffd2cfee,
+org.ops4j.pax.exam.extender.service[org.ops4j.pax.exam.raw.extender.intern.Probe] : Test PaxExam-a82e817d-731e-452e-8156-d578ffd2cfee to be in PaxExam-a82e817d-731e-452e-8156-d578ffd2cfee,
+org.ops4j.pax.exam.extender.service[org.ops4j.pax.exam.raw.extender.intern.Probe] : Registering Service: org.ops4j.pax.exam.ProbeInvoker with Probe-Signature="PaxExam-a82e817d-731e-452e-8156-d578ffd2cfee" and expression="io.vertx.example.osgi.it.VertxServiceIT;testThatTheServiceIsAvailable"
+org.ops4j.pax.exam.invoker.junit[org.ops4j.pax.exam.invoker.junit.internal.ContainerTestRunner] : running testThatTheServiceIsAvailable in reactor
+io.netty.common[io.netty.buffer.PooledByteBufAllocator] : -Dio.netty.allocator.numHeapArenas: 8
+io.netty.common[io.netty.buffer.PooledByteBufAllocator] : -Dio.netty.allocator.numDirectArenas: 8
+io.netty.common[io.netty.buffer.PooledByteBufAllocator] : -Dio.netty.allocator.pageSize: 8192
+io.netty.common[io.netty.buffer.PooledByteBufAllocator] : -Dio.netty.allocator.maxOrder: 11
+io.netty.common[io.netty.buffer.PooledByteBufAllocator] : -Dio.netty.allocator.chunkSize: 16777216
+io.netty.common[io.netty.buffer.PooledByteBufAllocator] : -Dio.netty.allocator.tinyCacheSize: 512
+io.netty.common[io.netty.buffer.PooledByteBufAllocator] : -Dio.netty.allocator.smallCacheSize: 256
+io.netty.common[io.netty.buffer.PooledByteBufAllocator] : -Dio.netty.allocator.normalCacheSize: 64
+io.netty.common[io.netty.buffer.PooledByteBufAllocator] : -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+io.netty.common[io.netty.buffer.PooledByteBufAllocator] : -Dio.netty.allocator.cacheTrimInterval: 8192
+io.netty.common[io.netty.buffer.PooledByteBufAllocator] : -Dio.netty.allocator.useCacheForAllThreads: true
+io.netty.common[io.netty.util.internal.InternalThreadLocalMap] : -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+io.netty.common[io.netty.util.internal.InternalThreadLocalMap] : -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+io.netty.common[io.netty.util.NetUtil] : -Djava.net.preferIPv4Stack: false
+io.netty.common[io.netty.util.NetUtil] : -Djava.net.preferIPv6Addresses: false
+io.netty.common[io.netty.util.NetUtil] : Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+io.netty.common[io.netty.util.NetUtil] : Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+io.netty.common[io.netty.channel.DefaultChannelId] : -Dio.netty.processId: 6800 (auto-detected)
+io.netty.common[io.netty.channel.DefaultChannelId] : -Dio.netty.machineId: 30:10:b3:ff:fe:d0:6a:e0 (auto-detected)
+io.netty.common[io.netty.buffer.ByteBufUtil] : -Dio.netty.allocator.type: pooled
+io.netty.common[io.netty.buffer.ByteBufUtil] : -Dio.netty.threadLocalDirectBufferSize: 65536
+io.netty.common[io.netty.buffer.ByteBufUtil] : -Dio.netty.maxThreadLocalCharBufferSize: 16384
+八月 15, 2018 10:42:00 下午 io.vertx.example.osgi.VertxVerticleHost __M_bindVerticle
+資訊: Deploying verticle io.vertx.example.osgi.VertxWebClientVerticle@35fc001c
+八月 15, 2018 10:42:00 下午 io.vertx.example.osgi.VertxVerticleHost __M_bindVerticle
+資訊: Deploying verticle io.vertx.example.osgi.VertxHttpClientVerticle@1517b778
+八月 15, 2018 10:42:00 下午 io.vertx.example.osgi.VertxWebApplication __M_setUpInitialData
+資訊: Setup initial data
+八月 15, 2018 10:42:00 下午 io.vertx.example.osgi.VertxWebApplication __M_lambda$start$0
+資訊: Creating HTTP server for vert.x web application
+八月 15, 2018 10:42:00 下午 io.vertx.example.osgi.VertxVerticleHost __M_bindVerticle
+資訊: Deploying verticle io.vertx.example.osgi.VertxWebApplication@5e9334e9
+八月 15, 2018 10:42:00 下午 io.vertx.example.osgi.VertxWebApplication __M_setUpInitialData
+資訊: Setup initial data
+八月 15, 2018 10:42:00 下午 io.vertx.example.osgi.VertxWebApplication __M_lambda$start$0
+資訊: Creating HTTP server for vert.x web application
+io.netty.common[io.netty.buffer.AbstractByteBuf] : -Dio.netty.buffer.bytebuf.checkAccessible: true
+io.netty.common[io.netty.util.ResourceLeakDetectorFactory] : Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@39be1bfa
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : HikariPool-1 - configuration:
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : allowPoolSuspension.............false
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : autoCommit......................true
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : catalog.........................null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : connectionInitSql...............null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : connectionTestQuery.............null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : connectionTimeout...............30000
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : dataSource......................null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : dataSourceClassName.............null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : dataSourceJNDI..................null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : dataSourceProperties............{password=<masked>}
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : driverClassName................."org.hsqldb.jdbcDriver"
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : healthCheckProperties...........{}
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : healthCheckRegistry.............null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : idleTimeout.....................600000
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : initializationFailFast..........true
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : isolateInternalQueries..........false
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : jdbc4ConnectionTest.............false
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : jdbcUrl........................."jdbc:hsqldb:mem:test?shutdown=true"
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : leakDetectionThreshold..........0
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : maxLifetime.....................1800000
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : maximumPoolSize.................30
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : metricRegistry..................null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : metricsTrackerFactory...........null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : minimumIdle.....................30
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : password........................<masked>
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : poolName........................"HikariPool-1"
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : readOnly........................false
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : registerMbeans..................false
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : scheduledExecutorService........null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : threadFactory...................null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : transactionIsolation............null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : username........................null
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariConfig] : validationTimeout...............5000
+com.zaxxer.HikariCP[com.zaxxer.hikari.HikariDataSource] : HikariPool-1 - Started.
+io.netty.common[io.netty.util.ResourceLeakDetectorFactory] : Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@149d597
+com.zaxxer.HikariCPio.netty.common[com.zaxxer.hikari.util.DriverDataSourceio.netty.common[io.netty.resolver.dns.DnsQueryContext] : [[id: 0xc5b7b387] WRITE: [45717: /192.168.0.1:53], DefaultDnsQuestion(perdu.com. IN A)
+io.netty.resolver.dns.DnsQueryContext] : [id: 0x09b95de4] WRITE: [64655: /192.168.0.1:53], DefaultDnsQuestion(perdu.com. IN A)
+] : Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+io.netty.common[io.netty.util.Recycler] : -Dio.netty.recycler.maxCapacityPerThread: 32768
+io.netty.common[io.netty.util.Recycler] : -Dio.netty.recycler.maxSharedCapacityFactor: 2
+io.netty.common[io.netty.util.Recycler] : -Dio.netty.recycler.linkCapacity: 16
+io.netty.common[io.netty.util.Recycler] : -Dio.netty.recycler.ratio: 8
+io.netty.common[io.netty.resolver.dns.DnsQueryContext] : [id: 0x09b95de4] WRITE: [63073: /192.168.0.1:53], DefaultDnsQuestion(perdu.com. IN AAAA)
+io.netty.common[io.netty.resolver.dns.DnsQueryContext] : [id: 0xc5b7b387] WRITE: [1154: /192.168.0.1:53], DefaultDnsQuestion(perdu.com. IN AAAA)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[0] - org.apache.felix.framework - 5.6.10
+[1] - org.ops4j.pax.exam - 4.9.1
+[2] - org.ops4j.pax.exam.inject - 4.9.1
+[3] - org.ops4j.pax.exam.extender.service - 4.9.1
+[4] - osgi.cmpn - 4.3.1.201210102024
+[5] - org.ops4j.pax.logging.pax-logging-api - 1.8.4
+[6] - org.ops4j.base - 1.5.0
+[7] - org.ops4j.pax.swissbox.core - 1.8.2
+[8] - org.ops4j.pax.swissbox.extender - 1.8.2
+[9] - org.ops4j.pax.swissbox.framework - 1.8.2
+[10] - org.ops4j.pax.swissbox.lifecycle - 1.8.2
+[11] - org.ops4j.pax.swissbox.tracker - 1.8.2
+[12] - org.apache.geronimo.specs.geronimo-atinject_1.0_spec - 1.0.0
+[13] - io.vertx.core - 3.5.3
+[14] - io.netty.common - 4.1.19.Final
+[15] - io.netty.buffer - 4.1.19.Final
+[16] - io.netty.transport - 4.1.19.Final
+[17] - io.netty.handler - 4.1.19.Final
+[18] - io.netty.codec - 4.1.19.Final
+[19] - io.netty.handler-proxy - 4.1.19.Final
+[20] - io.netty.codec-socks - 4.1.19.Final
+[21] - io.netty.codec-http - 4.1.19.Final
+[22] - io.netty.codec-http2 - 4.1.19.Final
+[23] - io.netty.codec-dns - 4.1.19.Final
+[24] - io.netty.resolver - 4.1.19.Final
+[25] - io.netty.resolver-dns - 4.1.19.Final
+[26] - com.fasterxml.jackson.core.jackson-core - 2.9.5
+[27] - com.fasterxml.jackson.core.jackson-databind - 2.9.5
+[28] - com.fasterxml.jackson.core.jackson-annotations - 2.9.5
+[29] - io.reactivex.rxjava2.rxjava - 2.1.9
+[30] - org.reactivestreams.reactive-streams - 1.0.2
+[31] - vertx-jwt - 3.5.3
+[32] - vertx-web - 3.5.3
+[33] - vertx-bridge-common - 3.5.3
+[34] - vertx-web-client - 3.5.3
+[35] - vertx-web-common - 3.5.3
+[36] - vertx-rx-java2 - 3.5.3
+[37] - vertx-auth-common - 3.5.3
+[38] - vertx-jdbc-client - 3.5.3
+[39] - vertx-sql-common - 3.5.3
+[40] - com.zaxxer.HikariCP - 2.4.6
+[41] - org.hsqldb.hsqldb - 2.3.4
+[42] - org.apache.felix.ipojo - 1.12.1
+[43] - org.apache.commons.io - 2.5.0
+[44] - io.vertx.osgi-examples - 3.5.3
+[45] - org.ops4j.pax.tipi.junit - 4.12.0.1
+[46] - org.ops4j.pax.tipi.hamcrest.core - 1.3.0.1
+[47] - org.ops4j.pax.exam.invoker.junit - 4.9.1
+[48] - PAXEXAM-PROBE-957106df-1588-47a9-9643-9557a4485ae0 - 0.0.0
+Driver: class org.hsqldb.jdbcDriver
+[25261d43-7ba9-4401-9901-8061bdd2edd2, 615e15ce-b4a7-4743-beed-6cd312cc1dcf, cb6a54d5-3735-444e-85bc-84383887f729]
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Pool stats (total=0, active=0, idle=0, waiting=0)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@2e755e90
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@473eb299
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@14ef453d
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@695c8229
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@6d59d04c
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@5f411d04
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@31e97d7c
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@3c29fca2
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@1fd180db
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@482f0718
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@325781fc
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@4168b7f8
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@52ac3056
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@620beadc
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@6c5dcf00
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@688e7204
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@5b93c1c3
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@66738d67
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@64546b66
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@7fd12bba
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@3a09705a
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@40ebcac9
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@72396e9
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@71d9f14c
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@a3c48d
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@1e00fbd2
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@50fb225
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@3b626059
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@25fb5c14
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Added connection org.hsqldb.jdbc.JDBCConnection@3c3cfd12
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - After adding stats (total=30, active=0, idle=30, waiting=0)
+JDBC test results: [[1,"Hello"]]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [PAXEXAM-PROBE-957106df-1588-47a9-9643-9557a4485ae0]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Un-registering [ManifestEntry{ key=PaxExam-Executable, value=PaxExam-a82e817d-731e-452e-8156-d578ffd2cfee, }, ManifestEntry{ key=PaxExam-a82e817d-731e-452e-8156-d578ffd2cfee, value=io.vertx.example.osgi.it.VertxServiceIT;testThatTheServiceIsAvailable }]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.exam.raw.extender.intern.TestBundleObserver] : Unregistered testcase [org.ops4j.pax.exam.raw.extender.intern.Probe@694348d7.]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.exam.invoker.junit]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.tipi.hamcrest.core]
+八月 15, 2018 10:42:02 下午 io.vertx.example.osgi.VertxVerticleHost __M_unbindVerticle
+資訊: Undeploying verticle io.vertx.example.osgi.VertxWebClientVerticle@35fc001c (615e15ce-b4a7-4743-beed-6cd312cc1dcf)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Close initiated...
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Before closing stats (total=30, active=0, idle=30, waiting=0)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@2e755e90: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@473eb299: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@14ef453d: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@695c8229: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@6d59d04c: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@5f411d04: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@31e97d7c: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@3c29fca2: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@1fd180db: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@482f0718: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@325781fc: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@4168b7f8: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@52ac3056: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@620beadc: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@6c5dcf00: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@688e7204: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@5b93c1c3: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@66738d67: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@64546b66: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@7fd12bba: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@3a09705a: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@40ebcac9: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@72396e9: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@71d9f14c: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@a3c48d: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@1e00fbd2: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@50fb225: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@3b626059: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@25fb5c14: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.PoolBase] : HikariPool-1 - Closing connection org.hsqldb.jdbc.JDBCConnection@3c3cfd12: (connection evicted)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - After closing stats (total=0, active=0, idle=0, waiting=0)
+com.zaxxer.HikariCP[com.zaxxer.hikari.pool.HikariPool] : HikariPool-1 - Closed.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.vertx.osgi-examples]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.apache.commons.io]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.apache.felix.ipojo]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.hsqldb.hsqldb]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [com.zaxxer.HikariCP]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [vertx-sql-common]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [vertx-jdbc-client]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [vertx-auth-common]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [vertx-rx-java2]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [vertx-web-common]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [vertx-web-client]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [vertx-bridge-common]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [vertx-web]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [vertx-jwt]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.reactivestreams.reactive-streams]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.reactivex.rxjava2.rxjava]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [com.fasterxml.jackson.core.jackson-annotations]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [com.fasterxml.jackson.core.jackson-databind]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [com.fasterxml.jackson.core.jackson-core]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.resolver-dns]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.resolver]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.codec-dns]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.codec-http2]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.codec-http]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.codec-socks]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.handler-proxy]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.codec]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.handler]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.transport]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.buffer]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.netty.common]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [io.vertx.core]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.tipi.junit]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.apache.geronimo.specs.geronimo-atinject_1.0_spec]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.swissbox.tracker]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.swissbox.lifecycle]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.swissbox.framework]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.swissbox.extender]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.swissbox.core]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.base]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Disabling SLF4J API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Disabling Jakarta Commons Logging API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Disabling Log4J API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Disabling Avalon Logger API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.logging.internal.Activator] : Disabling JULI Logger API support.
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.logging.pax-logging-api]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [osgi.cmpn]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.exam.extender.service]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.apache.felix.framework]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.exam.inject]
+org.ops4j.pax.logging.pax-logging-api[org.ops4j.pax.swissbox.extender.BundleWatcher] : Releasing bundle [org.ops4j.pax.exam]
+[main] INFO org.ops4j.pax.exam.spi.reactors.ReactorManager - suite finished
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.368 sec - in io.vertx.example.osgi.it.VertxServiceIT
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[WARNING] File encoding has not been set, using platform encoding MS950, i.e. build is platform dependent! The file encoding for reports output files should be provided by the POM property ${project.reporting.outputEncoding}.
+[INFO] 
+[INFO] --- maven-failsafe-plugin:2.19.1:verify (default) @ osgi-examples ---
+[INFO] Failsafe report directory: D:\Workspace\Vertx\vertx-examples-master\osgi-examples\target\failsafe-reports
+[WARNING] File encoding has not been set, using platform encoding MS950, i.e. build is platform dependent! The file encoding for reports output files should be provided by the POM property ${project.reporting.outputEncoding}.
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ osgi-examples ---
+[INFO] Installing D:\Workspace\Vertx\vertx-examples-master\osgi-examples\target\osgi-examples-3.5.3.jar to C:\Users\偉傑\.m2\repository\io\vertx\osgi-examples\3.5.3\osgi-examples-3.5.3.jar
+[INFO] Installing D:\Workspace\Vertx\vertx-examples-master\osgi-examples\pom.xml to C:\Users\偉傑\.m2\repository\io\vertx\osgi-examples\3.5.3\osgi-examples-3.5.3.pom
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.0.1:install (default-install) @ osgi-examples ---
+[INFO] Installing io/vertx/osgi-examples/3.5.3/osgi-examples-3.5.3.jar
+[INFO] Writing OBR metadata
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 53.999 s
+[INFO] Finished at: 2018-08-15T22:42:05+08:00
+[INFO] Final Memory: 36M/216M
+[INFO] ------------------------------------------------------------------------
