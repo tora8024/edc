@@ -1,0 +1,2 @@
+
+install mvn:com.michaelrice/osgi-demo-next/1.0.0-SNAPSHOT
