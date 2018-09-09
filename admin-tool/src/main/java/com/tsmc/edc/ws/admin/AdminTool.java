@@ -61,7 +61,7 @@ public class AdminTool extends AbstractVerticle {
 				throw new Exception("serviceFactory is empty");
 			} 
 	
-			Future<Void> future = Future.future();
+			Future<String> future = Future.future();
 		
 			DeployUtils.doDeploy(vertx, serviceFactory, future);
 			future.setHandler(as -> {
